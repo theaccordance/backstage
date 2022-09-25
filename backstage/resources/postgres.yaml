@@ -10,6 +10,8 @@ metadata:
   tags:
     - sql
     - database
+  labels:
+    mainwaring.dev/host: digitalocean.com
 spec:
   type: database
   owner: engineering
