@@ -11,6 +11,10 @@ metadata:
     github.com/project-slug: theaccordance/chartbrew
   tags:
     - javascript
+  links:
+    - url: https://www.github.com/theaccordance/chartbrew
+      title: Github
+      icon: github
 spec:
   type: library
   owner: joe@mainwaring.dev

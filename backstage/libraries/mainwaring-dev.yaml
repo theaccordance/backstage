@@ -11,6 +11,10 @@ metadata:
     github.com/project-slug: theaccordance/mainwaring_dev
   tags:
     - typescript
+  links:
+    - url: https://www.github.com/theaccordance/mainwaring_dev
+      title: Github
+      icon: github
 spec:
   type: library
   owner: joe@mainwaring.dev
