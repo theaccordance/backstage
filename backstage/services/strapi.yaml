@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: strapi-server
+  title: Strapi Server
+  description:  🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript, fully customizable and developer-first.
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/services/strapi.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/services/strapi.yaml
+  labels:
+    mainwaring.dev/host: digitalocean.com
+spec:
+  type: service
+  lifecycle: production
+  owner: engineering
+  system: mainwaring-dev
+  dependsOn: [mainwaring-dev, postgres-production]
+#  providesApis: [example-grpc-api]

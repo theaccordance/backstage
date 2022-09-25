@@ -4,6 +4,9 @@ metadata:
   name: manifests
   title: Manifests
   description: YAML files which are stored within the backstage repo
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/locations.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/locations.yaml
 spec:
   type: file
   targets:

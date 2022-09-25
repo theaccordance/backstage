@@ -2,8 +2,20 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: gitbook-mainwaring-dev
-  title: Public Documentation Portal
+  title: Documentation Portal
   description:  A public-facing documentation portal using the Gitbook service
+  labels:
+    mainwaring.dev/host: gitbook.io
+  links:
+    - url: https://docs.mainwaring.dev
+      title: Public Website
+      icon: public
+    - url: https://app.gitbook.com/
+      title: Gitbook
+      icon: edit
+    - url: https://github.com/theaccordance/mainwaring_dev/tree/main/docs
+      title: Github Source
+      icon: github
 spec:
   type: website
   lifecycle: production

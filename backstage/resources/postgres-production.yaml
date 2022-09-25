@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: postgres-production
+  title: Postgres (Production)
+  description: A Managed Postgres DB, hosted on DigitalOcean
+  labels:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/resources/postgres-production.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/resources/postgres-production.yaml
+    mainwaring.dev/host: digitalocean.com
+  tags:
+    - sql
+    - postgres
+spec:
+  type: database
+  owner: engineering
+  system: mainwaring-dev

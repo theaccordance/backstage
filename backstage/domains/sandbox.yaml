@@ -4,5 +4,8 @@ metadata:
   name: sandbox
   title: Sandbox
   description: Practice makes for perfect, and you can't always demo features that you developed at prior jobs.
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/domains/sandbox.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/domains/sandbox.yaml
 spec:
   owner: engineering

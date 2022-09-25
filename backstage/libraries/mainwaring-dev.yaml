@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mainwaring-dev
+  description: Core backend for my Developer Sandbox, built using Strapi
+  title: Mainwaring.dev Primary
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/mainwaring-dev.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/mainwaring-dev.yaml
+    backstage.io/source-location: url:https://github.com/theaccordance/chartbrew/tree/main/
+    github.com/project-slug: theaccordance/mainwaring_dev
+  tags:
+    - typescript
+spec:
+  type: library
+  owner: joe@mainwaring.dev
+  lifecycle: production

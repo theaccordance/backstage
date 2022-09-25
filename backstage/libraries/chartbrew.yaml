@@ -4,10 +4,13 @@ metadata:
   name: chartbrew
   description: Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more 📈📊
   title: Chartbrew
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/chartbrew.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/chartbrew.yaml
+    backstage.io/source-location: url:https://github.com/theaccordance/chartbrew/tree/master/
+    github.com/project-slug: theaccordance/chartbrew
+  tags:
+    - javascript
 spec:
   type: library
   owner: joe@mainwaring.dev

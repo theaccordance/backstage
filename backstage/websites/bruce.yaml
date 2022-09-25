@@ -4,6 +4,12 @@ metadata:
   name: carrd-bruce
   title: The Legend of Bruce
   description:  A simple Call to Action to promote a red inflatable dinosaur at music festivals.  Hosted on Carrd.co
+  labels:
+    mainwaring.dev/host: cardd.co
+  links:
+    - url: https://bruce.mainwaring.dev
+      title: Website
+      icon: public
 spec:
   type: website
   lifecycle: experimental

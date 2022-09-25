@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-server
+  title: Backstage Server
+  description:  Backstage is an open platform for building developer portals
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/services/backstage.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/services/backstage.yaml
+  labels:
+    mainwaring.dev/host: digitalocean.com
+spec:
+  type: service
+  lifecycle: production
+  owner: engineering
+  system: mainwaring-dev
+  dependsOn: [backstage, postgres-production]
+#  providesApis: [example-grpc-api]

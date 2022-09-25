@@ -5,5 +5,8 @@ metadata:
   name: knowhere-space
   title: Knowhere.space
   description:  A Personal Homelab I have exposed to the internet.
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/systems/knowhere-space.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/systems/knowhere-space.yaml
 spec:
   owner: engineering

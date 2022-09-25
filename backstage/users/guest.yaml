@@ -5,5 +5,8 @@ metadata:
   name: guest
   title: Guest
   description:  Look, but don't touch!
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/users/guest.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/users/guest.yaml
 spec:
-  memberOf: [guests]
+  memberOf: [engineering]

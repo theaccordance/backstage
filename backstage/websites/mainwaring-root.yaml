@@ -4,6 +4,12 @@ metadata:
   name: mainwaring-root
   title: Root Marketing Website
   description:  A simple landing page hosted with Github Pages
+  labels:
+    mainwaring.dev/host: github.com
+  links:
+    - url: https://mainwaring.dev
+      title: Website
+      icon: public
 spec:
   type: website
   lifecycle: deprecated

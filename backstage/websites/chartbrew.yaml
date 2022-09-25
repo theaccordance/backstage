@@ -1,9 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: chartbrew-frontend
-  title: API
-  description:  A Robust REST server using Strapi to expose data to other websites and resources.
+  name: chartbrew-app
+  title: Chartbrew App
+  description:  Open-source web platform used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more 📈📊
+  labels:
+    mainwaring.dev/host: vercel.com
+  links:
+    - url: https://chartbrew.mainwaring.dev
+      title: Application Website
+      icon: public
 spec:
   type: website
   lifecycle: production

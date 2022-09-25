@@ -4,10 +4,13 @@ metadata:
   name: balena-push
   description: A Github Action to continuously delivery your projects to balena.io
   title: Balena Push
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/balena-push.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/balena-push.yaml
+    backstage.io/source-location: url:https://github.com/theaccordance/balena-push/tree/master/
+    github.com/project-slug: theaccordance/balena-push
+  tags:
+    - github-actions
 spec:
   type: library
   owner: joe@mainwaring.dev

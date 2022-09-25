@@ -1,9 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-frontend
-  title: Backstage.io Portal
-  description:  The frontend application for the Backstage.io implementation
+  name: backstage-app
+  title: Backstage App
+  description:  Backstage is an open platform for building developer portals
+  labels:
+    mainwaring.dev/host: vercel.com
+  links:
+    - url: https://backstage.mainwaring.dev
+      title: Application Website
+      icon: public
 spec:
   type: website
   lifecycle: production

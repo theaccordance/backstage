@@ -4,7 +4,10 @@ kind: Group
 metadata:
   name: engineering
   title: Engineering
-  description: This team represents code and resource owners who should have privelaged access
+  description: This team represents code and resource owners who should have privileged access
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/groups/engineering.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/groups/engineering.yaml
 spec:
   type: team
   children: []

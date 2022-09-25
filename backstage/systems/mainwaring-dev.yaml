@@ -5,5 +5,8 @@ metadata:
   name: mainwaring-dev
   title: Mainwaring.dev
   description:  My cloud-based developer sandbox, showcasing micro-service oriented solutions
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/systems/mainwaring-dev.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/systems/mainwaring-dev.yaml
 spec:
   owner: engineering

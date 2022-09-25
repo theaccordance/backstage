@@ -4,10 +4,15 @@ metadata:
   name: card-dealer
   description: A robust card-dealing JavaScript Class written in TypeScript
   title: Card Dealer
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  annotations:
+    backstage.io/view-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/card-dealer.yaml
+    backstage.io/edit-url: https://github.com/theaccordance/backstage/blob/main/backstage/libraries/card-dealer.yaml
+    backstage.io/source-location: url:https://github.com/theaccordance/card-dealer/tree/master/
+    github.com/project-slug: theaccordance/card-dealer
+  tags:
+    - npm
+    - typescript
+    - javascript
 spec:
   type: library
   owner: joe@mainwaring.dev
