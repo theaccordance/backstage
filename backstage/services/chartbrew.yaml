@@ -14,5 +14,5 @@ spec:
   lifecycle: production
   owner: engineering
   system: mainwaring-dev
-  dependsOn: [chartbrew, postgres-production]
+  dependsOn: [chartbrew, postgres]
 #  providesApis: [example-grpc-api]
