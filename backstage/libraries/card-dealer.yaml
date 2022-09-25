@@ -17,9 +17,6 @@ metadata:
     - url: https://www.npmjs.com/package/card-dealer
       title:  NPM Listing
       icon: storefront
-    - url: https://www.github.com/theaccordance/card-dealer
-      title:  Github
-      icon: github
 spec:
   type: library
   owner: joe@mainwaring.dev

@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: betteruptime-mainwaring-dev
+  title: Status Page
+  description:  A status page using BetterUptime
+  labels:
+    mainwaring.dev/host: betteruptime.com
+  links:
+    - url: https://status.mainwaring.dev
+      title: Public Status Page
+      icon: public
+    - url: https://betteruptime.com/
+      title: BetterUptime
+      icon: exittoapp
+spec:
+  type: website
+  lifecycle: production
+  owner: engineering
+  system: mainwaring-dev
+#  providesApis: [example-grpc-api]

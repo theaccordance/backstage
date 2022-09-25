@@ -15,9 +15,6 @@ metadata:
     - url: https://github.com/marketplace/actions/balena-push
       title: Github Actions Marketplace Listing
       icon: storefront
-    - url: https://www.github.com/theaccordance/balena-push
-      title: Github
-      icon: github
 spec:
   type: library
   owner: joe@mainwaring.dev
