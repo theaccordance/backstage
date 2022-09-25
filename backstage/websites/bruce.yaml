@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: carrd-bruce
+  title: The Legend of Bruce
+  description:  A simple Call to Action to promote a red inflatable dinosaur at music festivals.  Hosted on Carrd.co
+spec:
+  type: website
+  lifecycle: experimental
+  owner: engineering
+  system: mainwaring-dev
+#  providesApis: [example-grpc-api]

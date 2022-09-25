@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: carrd-contact
+  title: Contact Page
+  description:  A fancier version of LinkTree, hosted on Carrd.co
+spec:
+  type: website
+  lifecycle: production
+  owner: engineering
+  system: mainwaring-dev
+#  providesApis: [example-grpc-api]

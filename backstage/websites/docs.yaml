@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: gitbook-mainwaring-dev
+  title: Public Documentation Portal
+  description:  A public-facing documentation portal using the Gitbook service
+spec:
+  type: website
+  lifecycle: production
+  owner: engineering
+  system: mainwaring-dev
+#  providesApis: [example-grpc-api]

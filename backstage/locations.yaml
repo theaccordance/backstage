@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: manifests
+  title: Manifests
+  description: YAML files which are stored within the backstage repo
+spec:
+  type: file
+  targets:
+    - ./domains/*.yaml
+    - ./groups/*.yaml
+    - ./libraries/*.yaml
+    - ./resources/*.yaml
+    - ./systems/*.yaml
+    - ./users/*.yaml
+    - ./websites/*.yaml

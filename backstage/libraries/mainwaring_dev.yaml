@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mainwaring-dev
+  description: Core backend for my Developer Sandbox, built using Strapi
+  title: Mainwaring.dev Primary
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  owner: joe@mainwaring.dev
+  lifecycle: production

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mainwaring-root
+  title: Root Marketing Website
+  description:  A simple landing page hosted with Github Pages
+spec:
+  type: website
+  lifecycle: deprecated
+  owner: engineering
+  system: mainwaring-dev
+#  providesApis: [example-grpc-api]

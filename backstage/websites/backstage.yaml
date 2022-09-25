@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-frontend
+  title: Backstage.io Portal
+  description:  The frontend application for the Backstage.io implementation
+spec:
+  type: website
+  lifecycle: production
+  owner: engineering
+  system: mainwaring-dev
+#  providesApis: [example-grpc-api]

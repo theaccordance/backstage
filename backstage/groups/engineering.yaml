@@ -1,0 +1,10 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: engineering
+  title: Engineering
+  description: This team represents code and resource owners who should have privelaged access
+spec:
+  type: team
+  children: []

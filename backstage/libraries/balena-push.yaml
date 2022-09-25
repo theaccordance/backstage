@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: balena-push
+  description: A Github Action to continuously delivery your projects to balena.io
+  title: Balena Push
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  owner: joe@mainwaring.dev
+  lifecycle: production

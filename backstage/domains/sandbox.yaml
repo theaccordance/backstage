@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: sandbox
+  title: Sandbox
+  description: Practice makes for perfect, and you can't always demo features that you developed at prior jobs.
+spec:
+  owner: engineering
