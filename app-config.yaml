@@ -40,7 +40,8 @@ backend:
       port: ${POSTGRES_PORT}
       user: ${POSTGRES_USER}
       password: ${POSTGRES_PASSWORD}
-      ssl: true
+      ssl:
+        rejectUnauthorized: false
 #        ca: ${POSTGRES_CERT}
   cache:
     store: memory
