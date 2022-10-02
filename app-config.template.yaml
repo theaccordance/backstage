@@ -1,0 +1,24 @@
+# app-config.template.yaml compiles into the git-ignored file app-config.local.yaml.
+# Do not store plain-text secrets in app-config.template.yaml
+app:
+  baseUrl: http://localhost:3000
+auth:
+  providers:
+    github:
+      development:
+        clientId: op://mainwaring.dev/backstage/environment/GITHUB_CLIENT_ID
+        clientSecret: op://mainwaring.dev/backstage/environment/GITHUB_CLIENT_SECRET
+backend:
+  baseUrl: http://localhost:7007
+  database:
+    connection:
+      host: op://mainwaring.dev/postgres/host
+      port: op://mainwaring.dev/postgres/port
+      user: op://mainwaring.dev/postgres/username
+      password: op://mainwaring.dev/postgres/password
+      ssl:
+        ca: op://mainwaring.dev/postgres/cert
+integrations:
+  github:
+    - host: github.com
+      token: op://mainwaring.dev/backstage/environment/GITHUB_TOKEN

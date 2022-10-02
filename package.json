@@ -20,7 +20,8 @@
     "lint:all": "backstage-cli repo lint",
     "prettier:check": "prettier --check .",
     "create-plugin": "backstage-cli create-plugin --scope internal",
-    "new": "backstage-cli new --scope internal"
+    "new": "backstage-cli new --scope internal",
+    "generate:config": "eval $(op signin) && op inject -i app-config.template.yaml -o app-config.local.yaml"
   },
   "workspaces": {
     "packages": [
