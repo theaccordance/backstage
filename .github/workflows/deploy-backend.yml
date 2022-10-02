@@ -17,8 +17,21 @@ jobs:
     environment: Production
     steps:
       - uses: actions/checkout@v3
+      - uses: gokiwibot/gcp-yaml-compiler@v1.0
+        with:
+          file: ./.do/backstage-backend.yaml
+        env:
+          APP_URL: ${{ secrets.APP_URL }}
+          BACKEND_URL: ${{ secrets.BACKEND_URL }}
+          GH_APP_CLIENT_ID: ${{ secrets.GH_APP_CLIENT_ID }}
+          GH_APP_CLIENT_SECRET: ${{ secrets.GH_APP_CLIENT_SECRET }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          POSTGRES_HOST: ${{ secrets.POSTGRES_HOST }}
+          POSTGRES_PORT: ${{ secrets.POSTGRES_PORT }}
+          POSTGRES_USER: ${{ secrets.POSTGRES_USER }}
+          POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
       - uses: digitalocean/action-doctl@v2
         with:
           token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
-      - run: doctl apps create-deployment ${{ secrets.DIGITALOCEAN_APP_ID }}
+      - run: doctl apps create-deployment ${{ secrets.DIGITALOCEAN_APP_ID }} --config ./.do/backstage-backend.yaml
 
