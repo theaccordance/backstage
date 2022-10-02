@@ -8,6 +8,7 @@ on:
       - 'backstage/**'
       - 'packages/backend/**'
       - 'plugins/**'
+      - 'app-config.yaml'
       - 'package.json'
   workflow_dispatch:
 jobs:
